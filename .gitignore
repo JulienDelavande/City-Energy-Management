@@ -1,0 +1,43 @@
+# Ignore les fichiers générés par l'environnement de développement
+*.class
+*.war
+*.ear
+*.jar
+*.zip
+*.tar.gz
+
+# Ignorer les fichiers de configuration
+application.properties
+application-dev.properties
+application-prod.properties
+application-test.properties
+
+# Ignorer les fichiers temporaires
+*.log
+*.log.*
+*.tmp
+
+# Ignorer les fichiers de dépendances générés
+target/
+
+# Ignorer les fichiers d'IDE (Eclipse, IntelliJ, NetBeans, etc.)
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+*.iws
+*.ipr
+*.log
+*.swp
+
+# Ignorer les fichiers générés par Maven
+target/
+*.lastUpdated
+
+# Ignorer les fichiers générés par Gradle
+build/
+.gradle/
+
+# Ignorer les fichiers de sauvegarde
+*~
